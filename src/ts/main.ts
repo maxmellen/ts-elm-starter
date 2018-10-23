@@ -6,4 +6,8 @@ document.body.appendChild(p);
 
 let elmDiv = document.createElement("div");
 document.body.appendChild(elmDiv);
-Elm.Main.init({ node: elmDiv });
+let app = Elm.Main.init({ node: elmDiv });
+
+app.ports.alert.subscribe(message => {
+  alert(message);
+});
