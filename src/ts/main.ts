@@ -1,3 +1,5 @@
+import { Elm } from "./elm";
+
 let p = document.createElement("p");
 p.textContent = "Hello TypeScript";
 document.body.appendChild(p);

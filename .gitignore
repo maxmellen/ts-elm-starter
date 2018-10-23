@@ -1,4 +1,4 @@
 /node_modules
 /elm-stuff
-/public/tsc.js
-/public/elm.js
+/dist
+/public/bundle.js
