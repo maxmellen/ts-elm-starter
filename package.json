@@ -1,0 +1,20 @@
+{
+  "name": "ts-elm-starter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:elm && npm run build:ts",
+    "build:elm": "elm make --output public/elm.js src/elm/Main.elm",
+    "build:ts": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^10.0.2",
+    "typescript": "^3.1.3"
+  }
+}

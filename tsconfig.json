@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outFile": "public/tsc.js"
+  },
+  "include": [
+    "src/ts/**/*"
+  ]
+}
